@@ -22,6 +22,7 @@ At the moment, to run the app, you need to run:
 
     npm install node-thinkgear
 
+
 and then:
 
     node app.js
