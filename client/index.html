@@ -16,9 +16,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <base target="_blank" />
 
-    <style type="text/css">
-
-    </style>
+    <link rel="stylesheet" href="test.css">
 
   </head>
   <body>
@@ -26,7 +24,6 @@
         <h1>Neurosky Brain Waves Visualizer</h1>
     </div>
 	<div id="graph"></div>
-
 
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="./base/crossfilter.js"></script>
@@ -52,12 +49,6 @@ require([], function () {
             'd3': 'd3.min',
             'dc': 'dc',
             'bootstrap': 'bootstrap/bootstrap.min'
-
-			// TODO: more magic!
-			//    script src="./base/jquery/jquery.ui.core.js">
-			//    script src="./base/d3.min.js">
-			//    script src="./base/jquery/jquery.tmpl.js">
-
         },
         map: {
             '*': {
@@ -67,7 +58,7 @@ require([], function () {
         }
     });
 
-    require(['./visualizer.js'], function(game){
+    require(['./visualizer.js'], function(){
     	console.log('done');
     });
 
